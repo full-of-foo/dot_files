@@ -1,0 +1,16 @@
+"*":
+  "exception-reporting":
+    userId: "79a18b8f-32e8-7615-8907-eb7ec9d67ebd"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-ocean-dark-syntax-theme"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    showIndentGuide: true
+    fontSize: 15
+    preferredLineLength: [80, 100, 105]
