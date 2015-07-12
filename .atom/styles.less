@@ -15,6 +15,14 @@
  * (To see them, uncomment and save)
  */
 
+ @hints-color: #c5c8c6;
+ @hints-opacity: 0.4;
+
+ atom-text-editor::shadow .editor-contents--private .invisible-character {
+   color: @hints-color;
+   opacity: @hints-opacity;
+ }
+
 // style the background color of the tree view
 .tree-view {
   // background-color: whitesmoke;

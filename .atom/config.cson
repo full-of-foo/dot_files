@@ -9,8 +9,10 @@
       "base16-ocean-dark-syntax-theme"
     ]
   editor:
-    invisibles: {}
+    invisibles:
+      space: '·'
+      tab: '⇥'
     showInvisibles: true
     showIndentGuide: true
     fontSize: 15
-    preferredLineLength: [80, 100, 105]
+    preferredLineLength: 80
