@@ -8,11 +8,17 @@
       "one-dark-ui"
       "base16-ocean-dark-syntax-theme"
     ]
+    ignoredNames: [
+      ".git"
+      ".sass-cache"
+      "*.pyc"
+    ]
   editor:
     invisibles:
-      space: '·'
-      tab: '⇥'
+      tab: "⇥"
     showInvisibles: true
     showIndentGuide: true
-    fontSize: 15
-    preferredLineLength: 80
+    fontSize: 13
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
